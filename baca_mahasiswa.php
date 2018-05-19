@@ -36,6 +36,7 @@
                     <td><?php echo $data['jurusan']; ?></td>
                     <td>
                         <a href="update_mahasiswa.php?nim=<?php echo $data['nim']; ?>">Update</a>
+                        <a href="delete_mahasiswa.php?nim=<?php echo $data['nim']; ?>">Delete</a>
                     </td>
                 </tr>
             <?php } ?>
